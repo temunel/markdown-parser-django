@@ -1,7 +1,9 @@
 # Markdown Parser Django app
 
-### 1. Install dependencies
+### 1. Create, activate the virtual environment & install dependencies
 ```
+py -m venv venv
+venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
