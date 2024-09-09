@@ -11,7 +11,6 @@ class Command(BaseCommand):
 
     def handle(self, *args, **kwargs):
         articles_path = os.path.join(BASE_DIR, 'articles')
-        print(articles_path)
     
         for root, dirs, files in os.walk(articles_path):
             for file in files:
